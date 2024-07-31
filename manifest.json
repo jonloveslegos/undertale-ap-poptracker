@@ -20,5 +20,6 @@
                 "ap" //enables AP autotracking interface - remove if not needed
             ]
         }
-    }
+    },
+    "versions_url": "https://github.com/jonloveslegos/undertale-ap-poptracker/blob/main/versions.json"
 }
