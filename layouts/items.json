@@ -1,0 +1,158 @@
+// sets layouts for shadred items grids
+// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+{
+    "all_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ruins",
+                                "snowdin",
+                                "waterfall",
+                                "hotland",
+                                "leftKey",
+                                "rightKey",
+                                "keypiece"
+                            ],
+                            [
+                                "jump",
+                                "item",
+                                "gold",
+                                "mystery_key"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "pacifist_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "skeleton",
+                                "fish",
+                                "letter",
+                                "extractor",
+                                "card",
+                                "dog"
+                            ],
+                            [
+                                "ruins_spares",
+                                "snowdin_spares",
+                                "waterfall_spares",
+                                "hotland_spares"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "neutral_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "card"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "genocide_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ruins_kills",
+                                "snowdin_kills",
+                                "waterfall_kills",
+                                "hotland_kills"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "option_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "route_required",
+                                "req_pieces",
+                                "lvsanity_enabled",
+                                "statsanity_enabled",
+                                "killsanity_enabled",
+                                "kill_sanity_pack_size",
+                                "sparesanity_enabled",
+                                "spare_sanity_max",
+                                "spare_sanity_pack_size"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+-- use this file to map the AP item ids to your items
+-- first value is the code of the target item and the second is the item type (currently only "toggle", "progressive" and "consumable" but feel free to expand for your needs!)
+-- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
+ITEM_MAPPING = {
+    [77779] = {"skeleton", "toggle"},
+    [77780] = {"fish", "toggle"},
+    [77057] = {"letter", "toggle"},
+    [77782] = {"extractor", "toggle"},
+    [77786] = {"mtt", "toggle"},
+    [77787] = {"leftKey", "toggle"},
+    [77789] = {"rightKey", "toggle"},
+    [77000] = {"keypiece", "consumable"},
+    [77997] = {"gold", "toggle"},
+    [77079] = {"item", "toggle"},
+    [77081] = {"ruins", "toggle"},
+    [77082] = {"snowdin", "toggle"},
+    [77083] = {"waterfall", "toggle"},
+    [77084] = {"hotland", "toggle"},
+    [77086] = {"jump", "toggle"},
+    [77087] = {"ruins_kills", "consumable"},
+    [77088] = {"snowdin_kills", "consumable"},
+    [77089] = {"waterfall_kills", "consumable"},
+    [77090] = {"hotland_kills", "consumable"},
+    [77092] = {"ruins_spares", "consumable"},
+    [77093] = {"snowdin_spares", "consumable"},
+    [77094] = {"waterfall_spares", "consumable"},
+    [77095] = {"hotland_spares", "consumable"},
+    [77026] = {"card", "consumable"},
+    [77038] = {"dog", "toggle"},
+    [77060] = {"mystery_key", "toggle"},
+}

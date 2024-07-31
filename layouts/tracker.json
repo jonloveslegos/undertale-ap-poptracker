@@ -1,0 +1,151 @@
+﻿//sets the trackers layout
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts 
+{
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "All Routes",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "all_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pacifist",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "pacifist_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Neutral",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "neutral_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Genocide",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "genocide_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Options",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "option_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "ruins"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Snowdin",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "snowdin"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Waterfall",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "waterfall"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hotland",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "hotland"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "New Home",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "newhome"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "LV",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "levels"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "HP",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "hp"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "ATK",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "atk"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "DEF",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "def"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

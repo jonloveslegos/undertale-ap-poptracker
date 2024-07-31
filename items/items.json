@@ -1,0 +1,350 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+[
+    {
+        "name": "ITEM",
+        "type": "toggle",
+        "img": "images/items/spr_itembt_0.png",
+        "codes": "item"
+    },
+    {
+        "name": "Fish",
+        "type": "toggle",
+        "disabled_img": "images/items/Fish0.png",
+        "img": "images/items/Fish1.png",
+        "disabled_img_mods": "none",
+        "codes": "fish"
+    },
+    {
+        "name": "DT Extractor",
+        "type": "toggle",
+        "disabled_img": "images/items/DTExtractor0.png",
+        "img": "images/items/DTExtractor1.png",
+        "disabled_img_mods": "none",
+        "codes": "extractor"
+    },
+    {
+        "name": "1000G",
+        "type": "toggle",
+        "img": "images/items/GoldBundle1.png",
+        "disabled_img": "images/items/GoldBundle0.png",
+        "disabled_img_mods": "none",
+        "codes": "gold"
+    },
+    {
+        "name": "Skeleton",
+        "type": "toggle",
+        "disabled_img": "images/items/Skeleton0.png",
+        "img": "images/items/Skeleton1.png",
+        "disabled_img_mods": "none",
+        "codes": "skeleton"
+    },
+    {
+        "name": "Undyne Letter EX",
+        "type": "toggle",
+        "disabled_img": "images/items/letterex0.png",
+        "img": "images/items/letterex1.png",
+        "disabled_img_mods": "none",
+        "codes": "letter"
+    },
+    {
+        "name": "Ruins Key",
+        "type": "toggle",
+        "disabled_img": "images/items/Keys/inactive/KeyRuins.png",
+        "img": "images/items/Keys/active/KeyRuins.png",
+        "disabled_img_mods": "none",
+        "codes": "ruins"
+    },
+    {
+        "name": "Snowdin Key",
+        "type": "toggle",
+        "disabled_img": "images/items/Keys/inactive/KeySnowdin.png",
+        "img": "images/items/Keys/active/KeySnowdin.png",
+        "disabled_img_mods": "none",
+        "codes": "snowdin"
+    },
+    {
+        "name": "Waterfall Key",
+        "type": "toggle",
+        "disabled_img": "images/items/Keys/inactive/KeyWaterfall.png",
+        "img": "images/items/Keys/active/KeyWaterfall.png",
+        "disabled_img_mods": "none",
+        "codes": "waterfall"
+    },
+    {
+        "name": "Hotland Key",
+        "type": "toggle",
+        "disabled_img": "images/items/Keys/inactive/KeyHotland.png",
+        "disabled_img_mods": "none",
+        "img": "images/items/Keys/active/KeyHotland.png",
+        "codes": "hotland"
+    },
+    {
+        "name": "Mystery Key",
+        "type": "toggle",
+        "disabled_img": "images/items/Keys/inactive/KeyCore.png",
+        "disabled_img_mods": "none",
+        "img": "images/items/Keys/active/KeyCore.png",
+        "codes": "mystery_key"
+    },
+    {
+        "name": "Required Route",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "route_required",
+        "stages": [
+            {
+                "name": "Required Route: Neutral",
+                "img": "images/items/WornDagger1.png",
+                "codes": "neutral",
+                "inherit_codes": false
+            },
+            {
+                "name": "Required Route: Pacifist",
+                "img": "images/items/HeartLocket1.png",
+                "codes": "pacifist",
+                "inherit_codes": false
+            },
+            {
+                "name": "Required Route: Genocide",
+                "img": "images/items/RealKnife1.png",
+                "codes": "genocide",
+                "inherit_codes": false
+            },
+            {
+                "name": "Required Route: All Routes",
+                "img": "images/items/heart.png",
+                "codes": "all_routes",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Right Home Key",
+        "type": "toggle",
+        "codes": "rightKey",
+        "img": "images/items/Keys/active/KeyNewHome.png",
+        "disabled_img": "images/items/Keys/inactive/KeyNewHome.png",
+        "disabled_img_mods": "none"
+    },
+    {
+        "name": "Left Home Key",
+        "type": "toggle",
+        "codes": "leftKey",
+        "img": "images/items/Keys/active/KeyNewHome.png",
+        "disabled_img": "images/items/Keys/inactive/KeyNewHome.png",
+        "disabled_img_mods": "none"
+    },
+    {
+        "name": "Key Pieces",
+        "type": "consumable",
+        "img": "images/items/Keys/active/KeyPiece.png",
+        "disabled_img": "images/items/Keys/inactive/KeyPiece.png",
+        "disabled_img_mods": "none",
+        "max_quantity": 20,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "keypiece"
+    },
+    {
+        "name": "Required Key Pieces",
+        "type": "consumable",
+        "img": "images/items/Keys/active/KeyPiece.png",
+        "disabled_img": "images/items/Keys/inactive/KeyPiece.png",
+        "disabled_img_mods": "none",
+        "max_quantity": 10,
+        "min_quantity": 1,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 5,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "req_pieces"
+    },
+    {
+        "name": "Punch Card",
+        "type": "consumable",
+        "img": "images/items/spr_punchcard.png",
+        "max_quantity": 3,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "card"
+    },
+    {
+        "name": "Kill Sanity Pack Size",
+        "type": "consumable",
+        "img": "images/items/RealKnife1.png",
+        "max_quantity": 40,
+        "min_quantity": 1,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "kill_sanity_pack_size"
+    },
+    {
+        "name": "Spare Sanity Pack Size",
+        "type": "consumable",
+        "img": "images/items/HeartLocket1.png",
+        "max_quantity": 100,
+        "min_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "spare_sanity_pack_size"
+    },
+    {
+        "name": "Spare Sanity Max Spares",
+        "type": "consumable",
+        "img": "images/items/HeartLocket1.png",
+        "max_quantity": 100,
+        "min_quantity": 1,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 10,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "spare_sanity_max"
+    },
+    {
+        "name": "Kill Sanity: Ruins",
+        "type": "consumable",
+        "img": "images/items/RealKnife1.png",
+        "max_quantity": 20,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "ruins_kills"
+    },
+    {
+        "name": "Kill Sanity: Snowdin",
+        "type": "consumable",
+        "img": "images/items/RealKnife1.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "snowdin_kills"
+    },
+    {
+        "name": "Kill Sanity: Waterfall",
+        "type": "consumable",
+        "img": "images/items/RealKnife1.png",
+        "max_quantity": 18,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "waterfall_kills"
+    },
+    {
+        "name": "Kill Sanity: Hotland",
+        "type": "consumable",
+        "img": "images/items/RealKnife1.png",
+        "max_quantity": 40,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "hotland_kills"
+    },
+    {
+        "name": "Spare Sanity: Ruins",
+        "type": "consumable",
+        "img": "images/items/HeartLocket1.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "ruins_spares"
+    },
+    {
+        "name": "Spare Sanity: Snowdin",
+        "type": "consumable",
+        "img": "images/items/HeartLocket1.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "snowdin_spares"
+    },
+    {
+        "name": "Spare Sanity: Waterfall",
+        "type": "consumable",
+        "img": "images/items/HeartLocket1.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "waterfall_spares"
+    },
+    {
+        "name": "Spare Sanity: Hotland",
+        "type": "consumable",
+        "img": "images/items/HeartLocket1.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "hotland_spares"
+    },
+    {
+        "name": "Hot Dog",
+        "type": "toggle",
+        "img": "images/items/hotdog.png",
+        "codes": "dog"
+    },
+    {
+        "name": "Killsanity",
+        "type": "toggle",
+        "img": "images/items/RealKnife1.png",
+        "codes": "killsanity_enabled"
+    },
+    {
+        "name": "LOVEsanity",
+        "type": "toggle",
+        "img": "images/items/RealKnife1.png",
+        "codes": "lvsanity_enabled"
+    },
+    {
+        "name": "Statsanity",
+        "type": "toggle",
+        "img": "images/items/RealKnife1.png",
+        "codes": "statsanity_enabled"
+    },
+    {
+        "name": "Sparesanity",
+        "type": "toggle",
+        "img": "images/items/HeartLocket1.png",
+        "codes": "sparesanity_enabled"
+    },
+    {
+        "name": "Jump",
+        "type": "toggle",
+        "img": "images/items/spr_bluefeet.png",
+        "codes": "jump"
+    }
+]

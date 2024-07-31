@@ -1,0 +1,57 @@
+//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+[
+    {
+        "name": "ruins",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "snowdin",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "waterfall",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "hotland",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "newhome",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "levels",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "hp",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "atk",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "def",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    }
+]
