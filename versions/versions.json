@@ -1,7 +1,7 @@
 {
     "versions": [
         {
-            "package_version": "1.0.0",
+            "package_version": "1.0.0.0",
             "download_url": "https://raw.githubusercontent.com/jonloveslegos/undertale-ap-poptracker/main/versions/undertale_ap_poptracker-v1.zip",
             "sha256": "dd71ea0fea01af2f5b3b8b5616652b5173a72e3685ac459e7dc065f0f55cddcf",
             "changelog": [
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "package_version": "0.0.0",
+            "package_version": "0.0.0.0",
             "download_url": "https://raw.githubusercontent.com/jonloveslegos/undertale-ap-poptracker/main/versions/undertale-ap-tracker-v0.zip",
             "sha256": "75cb44553d6029c64520dce92a35ae12796b9f27b9f024e67897d7c20ea96aa9",
             "changelog": [
