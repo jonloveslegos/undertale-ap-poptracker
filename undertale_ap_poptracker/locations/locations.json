@@ -1382,7 +1382,7 @@
                 "name": "Undyne Letter",
                 "visibility_rules": ["$is_route|pacifist", "$is_route|all_routes"],
                 "access_rules": [
-                    ["skeleton", "fish", "mtt", "hotland", "waterfall"]
+                    ["skeleton", "fish", "hotland", "waterfall"]
                 ],
                 "sections": [
                     {
@@ -2018,8 +2018,8 @@
             {
                 "name": "Popato Chisps Machine",
                 "access_rules": [
-                    ["mtt", "letter", "fish", "skeleton", "extractor", "leftKey", "rightKey"],
-                    ["mtt", "letter", "fish", "skeleton", "extractor", "$has_key_pieces"]
+                    ["letter", "fish", "skeleton", "extractor", "leftKey", "rightKey"],
+                    ["letter", "fish", "skeleton", "extractor", "$has_key_pieces"]
                 ],
                 "visibility_rules": ["$is_route|pacifist", "$is_route|all_routes"],
                 "sections": [
@@ -2119,10 +2119,10 @@
             {
                 "name": "Mettaton Fight",
                 "access_rules": [
-                    ["mtt", "[$has_more_then_n_kills|hotland_kills|40]"],
-                    ["mtt", "$is_route|all_routes"],
-                    ["mtt", "$is_route|neutral"],
-                    ["mtt", "$is_route|pacifist"]
+                    ["[$has_more_then_n_kills|hotland_kills|40]"],
+                    ["$is_route|all_routes"],
+                    ["$is_route|neutral"],
+                    ["$is_route|pacifist"]
                 ],
                 "sections": [
                     {
@@ -2140,7 +2140,7 @@
             {
                 "name": "Alphys Date",
                 "access_rules": [
-                    ["mtt", "fish", "letter", "skeleton", "snowdin", "waterfall"]
+                    ["fish", "letter", "skeleton", "snowdin", "waterfall"]
                 ],
                 "visibility_rules": ["$is_route|pacifist", "$is_route|all_routes"],
                 "sections": [
