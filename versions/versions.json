@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.0.2",
+            "download_url": "https://raw.githubusercontent.com/jonloveslegos/undertale-ap-poptracker/main/versions/undertale_ap_poptracker-v1.2.zip",
+            "sha256": "609b386ab2b617bcb4682a5375e281b5e59e35c7d76514342113ae087937bdc8",
+            "changelog": [
+                "Fixed item counts for sparesanity and killsanity"
+            ]
+        },
+        {
             "package_version": "1.0.0.1",
             "download_url": "https://raw.githubusercontent.com/jonloveslegos/undertale-ap-poptracker/main/versions/undertale_ap_poptracker-1.1.zip",
             "sha256": "c646febcaacded44e2b59b234144e35762e58113f264ebf1016b840e69214266",
